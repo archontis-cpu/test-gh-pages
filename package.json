@@ -10,16 +10,13 @@
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js",
     "stats": "webpack --json > stats.json && webpack-bundle-analyzer stats.json",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ita-social-projects/what-front.git"
+    "url": "https://archontis-cpu.github.io/test-gh-pages/"
   },
-  "bugs": {
-    "url": "https://github.com/ita-social-projects/what-front/issues"
-  },
-  "homepage": "https://github.com/ita-social-projects/what-front#readme",
+  "homepage": "https://archontis-cpu.github.io/test-gh-pages/",
   "devDependencies": {
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
