@@ -21,7 +21,6 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: `${paths.src}/index.html`,
-      favicon: `${paths.src}/assets/images/webpack.png`,
     }),
     new CopyWebpackPlugin({
       patterns: [
