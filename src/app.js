@@ -15,7 +15,7 @@ const store = configureStore();
 export const App = () => (
   <Provider store={store}>
     <h1>Hello, I`m App Component!</h1>
-    {/* <Counter /> */}
+    <Counter />
     {/* <EditLesson />
     <AddLesson />
     <Icon icon="Plus" size={32} />

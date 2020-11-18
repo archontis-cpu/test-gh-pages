@@ -14,9 +14,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://archontis-cpu.github.io/test-gh-pages/"
+    "url": "https://archontis-cpu.github.io/test-gh-pages"
   },
-  "homepage": "https://archontis-cpu.github.io/test-gh-pages/",
+  "homepage": "https://archontis-cpu.github.io/test-gh-pages",
   "devDependencies": {
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
